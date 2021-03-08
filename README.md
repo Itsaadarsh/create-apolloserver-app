@@ -1,7 +1,7 @@
 # Create Apollo-Server App
 
 <p>
-  <a href="https://www.npmjs.com/package/create-apolloserver-app"><img src="https://img.shields.io/npm/v/create-blog-app.svg?style=flat" alt="npm version"></a>
+  <a href="https://www.npmjs.com/package/create-apolloserver-app"><img src="https://img.shields.io/npm/v/create-apolloserver-app.svg?style=flat" alt="npm version"></a>
   <a href="CONTRIBUTING.md#pull-requests"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"></a>
   <a href="#license"><img src="https://img.shields.io/github/license/sourcerer-io/hall-of-fame.svg?colorB=ff0000"></a>
 </p>
@@ -30,7 +30,7 @@ npx create-apolloserver-app
 yarn create apolloserver-app
 ```
 
-It will spit out all the required files in the root.<br>
+It will spit out all the required files in the root directory `/`.
 
 Inside the newly created project, you can run some built-in commands:
 
@@ -47,12 +47,9 @@ To build all the typescript files in the `/dist` directory
 Runs the server in development mode.<br>
 Open [http://localhost:4000/graphql](http://localhost:4000/graphql) to view it in the browser.
 
-The page will automatically reload if you make changes to the code.<br>
-You will see the build errors and lint warnings in the console.
-
 ## Contributing
 
-I would love to have your helping hand on `create-apolloserver-app`! See [CONTRIBUTING.md](CONTRIBUTING.md) for more information on what we're looking for and how to get started.
+I would love to have your helping hand on `create-apolloserver-app` ! Visit [CONTRIBUTE.md](CONTRIBUTE.md) for more information on how to get started with this project.
 
 ## License
 
