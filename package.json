@@ -1,0 +1,39 @@
+{
+  "name": "create-apolloserver-app",
+  "version": "1.0.2",
+  "description": "CLI tool to setup Apollo Server with TypeORM",
+  "main": "bin/create-apolloserver-app",
+  "bin": {
+    "create-apolloserver-app": "bin/create-apolloserver-app"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "template/"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Itsaadarsh/create-apolloserver-app.git"
+  },
+  "keywords": [
+    "cli",
+    "create-apolloserver-app"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Itsaadarsh/create-apolloserver-app/issues"
+  },
+  "homepage": "https://github.com/Itsaadarsh/create-apolloserver-app#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "esm": "^3.2.25",
+    "inquirer": "^8.0.0",
+    "ncp": "^2.0.0"
+  }
+}
